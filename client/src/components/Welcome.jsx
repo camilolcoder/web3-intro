@@ -41,6 +41,47 @@ const Welcome = () => {
             <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
               Reliability
             </div>
+            <div className={companyCommonStyles}>
+               Security
+            </div>
+            <div className={`rounded-tr-2xl ${companyCommonStyles}`}>
+              Etherum
+            </div>
+            <div className={`rounded-bl-2xl ${companyCommonStyles}`}>
+              Web3.0
+            </div>
+            <div className={companyCommonStyles}>
+               Lowfees
+            </div>
+            <div className={`rounded-br-2xl ${companyCommonStyles}`}>
+              Blockchain
+            </div>
+
+            <div className="flex flex-col flex-1 items-center justify-start w-fullf md:mt-0 mt-10">
+              <div className="p-3 justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card white-glassmorpism">
+                <div className="flex justify-between flex-col w-full h-full">
+                  <div className="flex justify-between items-start">
+                    <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center">
+                      <SiEthereum fontSize={21} color="#fff"/>
+                    </div>
+                    <BsInfoCircle fontFamily={17} color="#fff"/>
+                  </div>
+                  <div>
+                    <p className="text-white font-light text-sm">
+                      0xasdgad342....345ds
+                    </p>
+                    <p className="text-white font-semibold text-lg mt-1">
+                      Etherum
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
+                
+              </div>
+            
+            </div>
 
           </div>
         </div>
